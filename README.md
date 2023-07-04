@@ -74,6 +74,14 @@ firewall_additional_rules:
 See [Iptables Essentials: Common Firewall Rules and Commands](https://www.digitalocean.com/community/tutorials/iptables-essentials-common-firewall-rules-and-commands) for more examples.
 
 ```yaml
+firewall_policy_input: ACCEPT
+firewall_policy_forward: ACCEPT
+firewall_policy_output: ACCEPT
+```
+
+Default policies for the builtin chains can be set to either ACCEPT or DROP.
+
+```yaml
 firewall_log_dropped_packets: true
 ```
 
