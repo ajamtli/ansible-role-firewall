@@ -1,5 +1,10 @@
 # Ansible Role: Firewall (iptables)
 
+>[!Note]
+> The 'prod' branch is my current working branch and all feature branches are
+> merged into this branch. New feature branches should be created from the
+> upstream 'master' branch.
+
 [![CI](https://github.com/geerlingguy/ansible-role-firewall/workflows/CI/badge.svg?event=push)](https://github.com/geerlingguy/ansible-role-firewall/actions?query=workflow%3ACI)
 
 Installs an iptables-based firewall for Linux. Supports both IPv4 (`iptables`) and IPv6 (`ip6tables`).
